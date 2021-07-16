@@ -1,0 +1,112 @@
+:root{
+    --roxo: rgb(98,31,123);
+    --cinza: rgb(211,211,211);
+    --preto: #141414;
+    --vermelho:#640016;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* isso aqui é para garantir que os elementos não fujam da caixa*/
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background: var(--vermelho);
+    color: white;
+}
+header #image-estigma{
+    margin-top: 5px;
+    margin-right: 2px;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+        flex-direction: column;
+
+}
+header .logo{
+    color: whitesmoke;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    justify-items:flex-start;
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+header nav a:hover{ /* aqui é para quando estamos com o mouse em cima do botao)*/
+    color: #fff;
+}
+
+/* coisas relacionadas ao filme principal*/
+
+
+.filme-principal{
+    margin-top: 10px;
+    font-size: 16px;
+    background: linear-gradient(rgb(0,0,0,.50), rgba(0,0,0,.5)100%), url("/images/aot.jpg");
+    height: 800px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+
+.filme-principal .descricao{
+    background: linear-gradient(rgb(0,0,0,.50), rgba(0,0,0,.5)100%);
+    margin-bottom: 40px;
+    margin-top: 10px;;
+}
+
+.filme-principal .titulo{
+    margin-top: 15%;
+    font-size: 45px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 25px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 8px;
+}
+.container{
+    margin-left: 20px;
+}
+
+.filme-principal .container{
+    width: 40%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+
+}
+
+.carrosel-filmes{
+    margin-top: 5px;
+}

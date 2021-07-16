@@ -1,2 +1,3 @@
-# mariAnime 2.0
- Um projeto pessoal de develop web.
+# mariAnime
+
+Site idealizado por Mariana Farias.
